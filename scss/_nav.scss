@@ -1,0 +1,39 @@
+
+nav{
+    grid-area: nav;
+    border-bottom: 1px solid $colorenlace;
+    width: 100%;
+}
+.actual{
+    color: $colorenlace;
+}
+nav a{
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+}
+nav ul li{
+    list-style: none;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    font-family: $fontfamili;
+}
+nav ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+nav a:hover{
+    color: $colorenlace;
+    text-decoration: underline;
+}
+.actual{
+    color: $colorenlace;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,121 @@
+
+main{
+    grid-area: main;
+    z-index: 1;
+    margin-top: 120px;
+    padding-bottom: 10px;
+}
+.indexnos{
+    @include flex(center,center,wrap,row)
+  
+}
+.textoss{
+    text-align: center;
+}
+.video{
+    @include flex(center,center,wrap,row);
+    border: solid 1px blue;
+    
+}
+.h3productos{
+    border-bottom: 2px solid black; 
+    text-align: center;
+    font-family: $fontfamili;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.card{
+    width: 100%;
+    margin: 30px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 400ms ease;
+    
+}
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+}
+.card img{
+    width: 100%;
+    height: ($alto)+10px;
+}
+.card a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contPadre{
+    width: 100%;
+    @include flex(center,center,wrap,row);
+}
+.contPadre2{
+    width: 100%;
+    @include flex(center,center,wrap,row);
+} 
+iframe{
+    width: $ancho; 
+    height: $alto; 
+}
+.container-form{
+   @include flex(center,center,wrap,column);
+    width: 100%;
+}
+.tel{
+    flex-direction: column;
+    display: flex;
+    border: 2px solid orange;
+    margin-bottom: 15px;
+    width: 70%;
+}
+.tel a{
+    margin: 5px;
+}
+.container-form a i{
+    color: orange;
+    padding-bottom: 10px;
+    padding-right: 5px;
+}
+.container-form a{
+    text-decoration: none;
+    color: $color_a_form;
+}
+.container-form a:hover{
+    color: $color_hover_form;
+}
+.container-form h2{
+    text-decoration: underline;
+    text-align: center;
+    font-family: $fontfamili;
+}
+.formulario{
+    display: flex;
+    justify-content: center;
+}
+.formulario form{
+    border: 2px solid orange;
+    border-radius: 6px;
+}
+.card-title{
+    font-family: $fontfamili;
+}
+.tituloindex{
+    font-family: $fontfamili;
+    text-decoration: underline;
+}
+
+.enestatienda{
+    font-family: 'Rubik Mono One', sans-serif;
+    color: #46a2fd;
+    font-weight: 100;
+    font-size: small;
+}
+.mb-3{
+    margin: 5px 5px 0px 5px;
+}
+.btn-form{
+    margin: 0px 5px 5px 5px;
+}

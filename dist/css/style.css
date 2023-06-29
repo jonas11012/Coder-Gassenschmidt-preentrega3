@@ -1,0 +1,385 @@
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap");
+main {
+  background: url(../dist/media/campeones.jfif);
+}
+
+.btn-propio {
+  font-family: "Russo One", sans-serif;
+  font-size: 0.85rem;
+  text-align: center;
+  border-radius: 25px;
+  padding: 6px 25px;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(243, 174, 0);
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
+header {
+  width: 100%;
+  grid-area: header;
+  flex-direction: row;
+  z-index: 2;
+}
+
+header h1 b {
+  color: #46a2fd;
+}
+
+.logo {
+  height: 80px;
+  padding-left: 10px;
+  display: flex;
+  padding-left: 25px;
+  align-items: center;
+  font-family: "Russo One", sans-serif;
+}
+
+.logo button i {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  border: none;
+}
+
+.logo button {
+  border: none;
+  background-color: #fff;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  font-size: 40px;
+}
+
+nav {
+  grid-area: nav;
+  border-bottom: 1px solid #46a2fd;
+  width: 100%;
+}
+
+.actual {
+  color: #46a2fd;
+}
+
+nav a {
+  text-decoration: underline;
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+}
+
+nav ul li {
+  list-style: none;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  font-family: "Russo One", sans-serif;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+nav a:hover {
+  color: #46a2fd;
+  text-decoration: underline;
+}
+
+.actual {
+  color: #46a2fd;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.inicio {
+  grid-area: inicio;
+  display: none;
+}
+
+.inicio #carouselExampleControls .carousel-inner img {
+  height: 200px;
+  width: 100%;
+}
+
+main {
+  grid-area: main;
+  z-index: 1;
+  margin-top: 120px;
+  padding-bottom: 10px;
+}
+
+.indexnos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.textoss {
+  text-align: center;
+}
+
+.video {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  border: solid 1px blue;
+}
+
+.h3productos {
+  border-bottom: 2px solid black;
+  text-align: center;
+  font-family: "Russo One", sans-serif;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.card {
+  width: 100%;
+  margin: 30px;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  cursor: default;
+  transition: all 400ms ease;
+}
+
+.card:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-3%);
+}
+
+.card img {
+  width: 100%;
+  height: 210px;
+}
+
+.card a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contPadre {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.contPadre2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+iframe {
+  width: 300px;
+  height: 200px;
+}
+
+.container-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 100%;
+}
+
+.tel {
+  flex-direction: column;
+  display: flex;
+  border: 2px solid orange;
+  margin-bottom: 15px;
+  width: 70%;
+}
+
+.tel a {
+  margin: 5px;
+}
+
+.container-form a i {
+  color: orange;
+  padding-bottom: 10px;
+  padding-right: 5px;
+}
+
+.container-form a {
+  text-decoration: none;
+  color: #46a2fd;
+}
+
+.container-form a:hover {
+  color: orange;
+}
+
+.container-form h2 {
+  text-decoration: underline;
+  text-align: center;
+  font-family: "Russo One", sans-serif;
+}
+
+.formulario {
+  display: flex;
+  justify-content: center;
+}
+
+.formulario form {
+  border: 2px solid orange;
+  border-radius: 6px;
+}
+
+.card-title {
+  font-family: "Russo One", sans-serif;
+}
+
+.tituloindex {
+  font-family: "Russo One", sans-serif;
+  text-decoration: underline;
+}
+
+.enestatienda {
+  font-family: "Rubik Mono One", sans-serif;
+  color: #46a2fd;
+  font-weight: 100;
+  font-size: small;
+}
+
+.mb-3 {
+  margin: 5px 5px 0px 5px;
+}
+
+.btn-form {
+  margin: 0px 5px 5px 5px;
+}
+
+footer {
+  grid-area: footer;
+}
+
+.pieDepagina {
+  width: 100%;
+  display: flex;
+  background-color: black;
+}
+
+.redes {
+  height: 100%;
+  padding-left: 10px;
+  color: white;
+}
+
+.redes h2 {
+  display: flex;
+  align-items: center;
+}
+
+.medios {
+  list-style: none;
+  padding-left: 10px;
+  margin-top: 5px;
+  color: white;
+  border: 2px solid white;
+}
+
+.pagos {
+  color: white;
+  padding-left: 10px;
+  margin-left: 20%;
+  border-left: 2px solid white;
+}
+
+.footerr {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 50%;
+  border: 1px solid white;
+  margin-left: 15px;
+}
+.footerr:hover {
+  scale: 1.5;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.border {
+  border-right: none;
+  border-left: none;
+}
+
+.grilla {
+  width: 100%;
+  position: relative;
+  min-height: 100vh;
+  display: grid;
+  grid-template-areas: "header" "nav" "main" "footer";
+  grid-template-columns: 1fr;
+  grid-template-rows: 100px 120px auto 150px;
+}
+
+@media (min-width: 465px) {
+  .grilla {
+    grid-template-areas: "header" "nav" "inicio" "main" "footer";
+    grid-template-columns: 1fr;
+    grid-template-rows: 70px 100px 100px auto 150px;
+  }
+  nav {
+    border-bottom: none;
+  }
+  nav ul {
+    flex-direction: row;
+  }
+  nav ul li {
+    padding-bottom: 0px;
+    align-items: 70px;
+  }
+  .inicio {
+    display: grid;
+  }
+  iframe {
+    width: 400px;
+    height: 300px;
+  }
+}
+@media (min-width: 930px) {
+  .grilla {
+    grid-template-areas: "header nav" "inicio inicio" "main main" "footer footer";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 70px 100px auto 150px;
+  }
+  .tel {
+    flex-direction: row;
+    justify-content: space-around;
+    width: 70%;
+  }
+  iframe {
+    width: 600px;
+    height: 400px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
